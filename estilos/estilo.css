@@ -3,7 +3,7 @@
 /*
 Paleta de cores
 Verde: #49a09d
-Lilás: #5f2c02
+Lilás: #5f2c82
 */
 
 *{
@@ -34,6 +34,9 @@ section#login{
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
